@@ -13,12 +13,13 @@ import java.time.Duration;
 public class BasePage extends DriverSetup {
 
     public WebElement getElement(By locator) {
-        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(40));
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(30));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
     public void clickOnElement(By locator) {
         getElement(locator).click();
+
     }
 
     public String getElementText(By locator) {
@@ -26,12 +27,19 @@ public class BasePage extends DriverSetup {
     }
 
     public void sendKeys(By locator, String text) {
+        getElement(locator).clear();
         getElement(locator).sendKeys(text);
     }
 
     public void selectField(By locator, String text) {
         Select select = new Select(getElement(locator));
         select.selectByVisibleText(text);
+
+    }
+
+    public void selectField(By locator, int index) {
+        Select select = new Select(getElement(locator));
+        select.selectByIndex(index);
 
     }
 
