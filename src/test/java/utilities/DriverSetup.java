@@ -9,6 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import java.time.Duration;
+
 public class DriverSetup {
 
     private static final ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
@@ -19,6 +21,7 @@ public class DriverSetup {
         String browserName = System.getProperty("browser") == null ? "chrome" : System.getProperty("browser");
         WebDriver webDriver = getBrowser(browserName);
         webDriver.manage().window().maximize();
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         setDriver(webDriver);
     }
 
