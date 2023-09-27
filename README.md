@@ -1,5 +1,6 @@
 # Test-Automation-Selenium-MrBaker
 Various test cases have been automated for Mr. Baker's online store, a well-known bakery in Bangladesh, using Selenium and TestNg. 
+<img src="https://github.com/shafinrahman912/Test-Automation-Selenium-MrBaker/assets/83553368/4dd54720-33fd-427b-be8a-8ade9b772337" width="400" height="300">
 
 ## Getting Started
 The below instructions will explain how to get the project up and running on a local machine for development and testing purposes.
@@ -109,20 +110,6 @@ https://github.com/shafinrahman912/Test-Automation-Selenium-MrBaker/assets/83553
 - [Maven](https://maven.apache.org/) - Dependency and Project Management
 - [Selenium](https://www.selenium.dev/) - The Framework used to Automate
 - [TestNG](https://testng.org/) - The Framework used to Test
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
 ## Versioning
