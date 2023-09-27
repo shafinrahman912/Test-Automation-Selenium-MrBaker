@@ -1,6 +1,5 @@
 # Test-Automation-Selenium-MrBaker
 Various test cases have been automated for Mr. Baker's online store, a well-known bakery in Bangladesh, using Selenium and TestNg. 
-<img src="https://github.com/shafinrahman912/Test-Automation-Selenium-MrBaker/assets/83553368/4dd54720-33fd-427b-be8a-8ade9b772337" width="400" height="300">
 
 ## Getting Started
 The below instructions will explain how to get the project up and running on a local machine for development and testing purposes.
