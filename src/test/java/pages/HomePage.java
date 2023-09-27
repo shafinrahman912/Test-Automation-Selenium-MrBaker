@@ -13,6 +13,7 @@ public class HomePage extends BasePage{
     public By searchButton=By.xpath("//div[@class='searchform-popup']//button[@title='Search']");
     public By clickCakeCategory=By.xpath("//li[@class='porto-links-item']//a[normalize-space()='Cake']");
     public By clickCake=By.xpath("//h3[normalize-space()='CHOCOLATE DAKER CAKE']");
+    public By register=By.xpath("//a[normalize-space()='Register']");
 
     private String cakeName;
 
